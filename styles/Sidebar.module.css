@@ -5,7 +5,7 @@
   z-index: 30;
   height: 100vh;
   width: var(--sidebar-width);
-  background-color: rgba(17, 24, 39, 0.8); /* var(--gray-darker) with opacity */
+  background-color: rgba(17, 24, 39, 0.8);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
   box-shadow: var(--shadow-lg);
@@ -82,12 +82,12 @@
   padding: 0.5rem 1rem;
   border-radius: 0.25rem;
   transition: var(--transition-normal);
-  color: #f3f4f6; /* var(--gray-light) */
+  color: #f3f4f6;
   margin-bottom: 0.5rem;
 }
 
 .navButton:hover {
-  background-color: rgba(55, 65, 81, 0.7); /* Semi-transparent hover */
+  background-color: rgba(55, 65, 81, 0.7);
 }
 
 .navButton.active {

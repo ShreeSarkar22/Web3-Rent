@@ -1,6 +1,6 @@
 .footer {
     background-color: var(--gray-darker);
-    color: #9ca3af; /* Gray 400 */
+    color: #9ca3af;
   }
   
   .container {
@@ -52,7 +52,7 @@
     width: 2rem;
     height: 2rem;
     border-radius: 50%;
-    background-color: #374151; /* Gray 700 */
+    background-color: #374151;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -87,7 +87,7 @@
   }
   
   .copyright {
-    border-top: 1px solid #374151; /* Gray 700 */
+    border-top: 1px solid #374151;
     margin-top: 2rem;
     padding-top: 1.5rem;
     text-align: center;

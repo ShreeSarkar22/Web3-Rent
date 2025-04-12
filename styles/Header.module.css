@@ -4,7 +4,7 @@
   box-shadow: var(--shadow-md);
   position: sticky;
   top: 0;
-  z-index: 40; /* Higher than sidebar */
+  z-index: 40;
   height: var(--header-height);
 }
 
@@ -47,7 +47,7 @@
   border: none;
   cursor: pointer;
   padding: 0;
-  z-index: 50; /* Higher than header */
+  z-index: 50;
 }
 
 .menuButton span {
@@ -58,7 +58,6 @@
   transition: var(--transition-normal);
 }
 
-/* Media query for desktop */
 @media (min-width: 768px) {
   .desktopNav {
     display: flex;
