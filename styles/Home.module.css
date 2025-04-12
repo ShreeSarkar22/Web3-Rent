@@ -1,0 +1,35 @@
+.pageWrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.contentWrapper {
+  display: flex;
+  flex: 1;
+  position: relative;
+}
+
+.mainContent {
+  flex: 1;
+  transition: all 0.3s ease;
+  width: 100%;
+}
+
+/* When sidebar is open on desktop, shift content to make room */
+@media (min-width: 768px) {
+  .mainContent.shifted {
+    margin-left: var(--sidebar-width);
+    width: calc(100% - var(--sidebar-width));
+  }
+}
+
+.sectionsContainer {
+  padding: 0;
+}
+
+@media (min-width: 768px) {
+  .sectionsContainer {
+    padding: 0 1rem;
+  }
+}
