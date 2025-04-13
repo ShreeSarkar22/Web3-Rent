@@ -88,8 +88,8 @@
   
   .copyright {
     border-top: 1px solid #374151;
-    margin-top: 2rem;
-    padding-top: 1.5rem;
+    margin-top: 0.8rem;
+    padding-top: 0.2rem; 
     text-align: center;
     font-size: 0.875rem;
   }
