@@ -86,26 +86,26 @@ export default function Home() {
       title: 'Home',
       content: 'Welcome to our website! Dedo Rent!'
     },
-    {
-      id: 'about',
-      title: 'About Us',
-      content: 'We dont know what we are doing! :)'
-    },
-    {
-      id: 'services',
-      title: 'Services',
-      content: 'We offer nothing! (:'
-    },
-    {
-      id: 'portfolio',
-      title: 'Portfolio',
-      content: 'Check out our hackathon!'
-    },
-    {
-      id: 'contact',
-      title: 'Contact',
-      content: 'Get in touch with us!'
-    }
+    // {
+    //   id: 'about',
+    //   title: 'About Us',
+    //   content: 'We dont know what we are doing! :)'
+    // },
+    // {
+    //   id: 'services',
+    //   title: 'Services',
+    //   content: 'We offer nothing! (:'
+    // },
+    // {
+    //   id: 'portfolio',
+    //   title: 'Portfolio',
+    //   content: 'Check out our hackathon!'
+    // },
+    // {
+    //   id: 'contact',
+    //   title: 'Contact',
+    //   content: 'Get in touch with us!'
+    // }
   ];
 
   return (

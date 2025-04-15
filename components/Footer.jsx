@@ -16,12 +16,12 @@ export default function Footer() {
             <p className={styles.footerText}>
               Creating amazing digital experiences since today.
             </p>
-            <div className={styles.socialIcons}>
+            {/* <div className={styles.socialIcons}>
               <SocialIcon name="Twitter" />
               <SocialIcon name="Facebook" />
               <SocialIcon name="Instagram" />
               <SocialIcon name="LinkedIn" />
-            </div>
+            </div> */}
           </div>
           
           <div className={styles.footerSection}>

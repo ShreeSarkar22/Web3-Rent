@@ -16,6 +16,7 @@
   height: 100%;
   max-width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .logo {
@@ -56,6 +57,71 @@
   background-color: white;
   display: block;
   transition: var(--transition-normal);
+}
+
+@media (min-width: 768px) {
+  .desktopNav {
+    display: flex;
+  }
+}
+
+.walletButton {
+  background: var(--primary-color, #4f46e5);
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 999px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.3s ease;
+  margin-left: 1rem;
+}
+
+.walletButton:hover {
+  background: var(--secondary-color, #6366f1);
+}
+
+.connectBtn {
+  background: linear-gradient(135deg, #3b82f6, #06b6d4);
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  font-weight: 600;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  transition: all 0.5s ease, box-shadow 0.3s ease;
+}
+
+.connectBtn:hover {
+  background: linear-gradient(135deg, #06b6d4, #3b82f6);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(59, 130, 246, 0.5);
+}
+
+.walletAddress {
+  font-size: 0.9rem;
+  margin-right: 0.5rem;
+}
+
+.walletSection {
+  display: flex;
+  align-items: center;
+}
+
+.leftSection {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.desktopNav {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  display: none;
 }
 
 @media (min-width: 768px) {

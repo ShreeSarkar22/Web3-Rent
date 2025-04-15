@@ -10,7 +10,7 @@ contract RentalContract {
     uint public endDate;
     uint public rentAmount;
     uint public lastPaymentTimestamp;
-    uint public dueInterval; // in seconds (e.g., 30 days = 2592000)
+    uint public dueInterval; // in days
     bool public isActive;
 
     // Payment Log variables
@@ -56,7 +56,7 @@ contract RentalContract {
         startDate = _startDate;
         endDate = _endDate;
         rentAmount = _rentAmount;
-        dueInterval = _dueInterval;
+        dueInterval = _dueInterval * 1 days; //Remove the ( 1 days ) part to do in seconds
         isActive = true;
 
         emit AgreementCreated(tenant, landlord, startDate, endDate);
@@ -118,7 +118,7 @@ contract RentalContract {
         return (payment.amount, payment.timestamp, payment.payer);
     }
     
-    // Get all payments (returns separate arrays for better usability)
+    // Get all payments (returns separate arrays)
     function getAllPayments() external view returns (
         uint[] memory amounts,
         uint[] memory timestamps,
