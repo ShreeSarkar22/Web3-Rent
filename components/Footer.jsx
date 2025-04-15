@@ -86,7 +86,7 @@ function SocialIcon({ name }) {
       whileHover={{ y: -5, scale: 1.1 }}
       className={styles.socialIcon}
     >
-      {/* Icon placeholder - you would use actual icons in production */}
+      {/* Icon placeholder*/}
       <span className="sr-only">{name}</span>
     </motion.a>
   );

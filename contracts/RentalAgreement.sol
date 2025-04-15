@@ -10,7 +10,7 @@ contract RentalContract {
     uint public endDate;
     uint public rentAmount;
     uint public lastPaymentTimestamp;
-    uint public dueInterval; // in days
+    uint public dueInterval; // in days, and need to automate this calculation
     bool public isActive;
 
     // Payment Log variables

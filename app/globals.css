@@ -80,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0 1rem;
 }
 
-/* Custom scrollbar for a more polished look */
+/* Custom scrollbar*/
 ::-webkit-scrollbar {
   width: 8px;
 }
@@ -98,7 +98,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #555;
 }
 
-/* Utility classes */
 .sr-only {
   position: absolute;
   width: 1px;
